@@ -1,10 +1,10 @@
 import React from 'react'
-import Child from './child'
+import Child1 from './Child1'
 export default function parent() {
   return (
     <div>parent
 
-        <Child/>
+        <Child1/>
     </div>
   )
 }

@@ -13,6 +13,7 @@ export default function Child() {
 
    return (
      <div>
+
        <h1>Child Component</h1>
        <label>Username</label>
       <input 
@@ -21,6 +22,7 @@ export default function Child() {
        onChange={(e) => setUsername(e.target.value)} 
       />
       <button onClick={helloworld}>Submit</button>
+      
     </div>
    );
  }
